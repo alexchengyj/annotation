@@ -5,6 +5,7 @@ import java.lang.reflect.Method;
 
 public class AnnoTest {
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 		try {
 			//获取class annotation
